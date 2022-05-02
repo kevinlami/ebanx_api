@@ -20,4 +20,9 @@ class Account
         Json::clear(self::JSON_PATH);
     }
 
+    public function getBalance($account_id)
+    {
+        return Utils::getArrayValueByKey($this->json, $account_id);
+    }
+
 }
