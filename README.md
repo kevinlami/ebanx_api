@@ -6,3 +6,5 @@ It contains basically three routes:
   * **POST** */reset*
   * **GET**  */balance?account_id={Number}*
   * **POST** */event*
+
+The data is saved in a json called account.
